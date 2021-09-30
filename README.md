@@ -17,15 +17,14 @@ The following is a guide to launching a React app that pulls data from a BigComm
 
 4. In the terminal on your local machine, clone this repo with `git clone https://github.com/takeshape/takeshape-starter-bigcommerce`
 
-5. Open the project directory and edit `takeshape-example.js` and replace the text that says `YOUR-ENDPOINT-HERE` with your API Endpoint. Replace the text that says `YOUR-API-KEY-HERE` with your API Key.
+5. Open the project directory and edit `.env.example` and replace the text that says `YOUR-ENDPOINT-HERE` with your API Endpoint. Replace the text that says `YOUR-API-KEY-HERE` with your API Key. Save the file and rename it to `.env`.
 
-6. Open the `index.html` file in the root of the project directory in your favorite browser.
-
-7. Follow this guide to connect a BigCommerce Store to your project:
+5. Follow this guide to connect a BigCommerce Store to your project:
 https://app.takeshape.io/docs/services/providers/bigcommerce/#Connecting-BigCommerce-to-your-TakeShape-project
 
+5. Once your BigCommerce project is connected to your TakeShape project, enter `npm run start` in your terminal.
 
-8. Enjoy!
+5. Enjoy!
 
 ## Learn More
 
